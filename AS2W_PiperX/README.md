@@ -136,7 +136,7 @@ names, one parent per child, every mesh file present) before writing.
 ## Known limitations
 
 * Only URDF + STL are committed. The USD is generated on first load by
-  `DEEPROBOTICS_AS2W_PIPERX_CFG` (`UrdfFileCfg`, `fix_base=False`,
+  `AS2W_PIPERX_CFG` (`UrdfFileCfg`, `fix_base=False`,
   `merge_fixed_joints=False`), cached in `usd/` next to this file.
   Run `python scripts/tools/zero_agent.py --task Visualize-AS2W-PiperX-v0`
   to view the robot standing still in Isaac Sim (pose + PD gains are documented in
